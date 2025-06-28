@@ -4,7 +4,7 @@ This Bash script helps Termux users on Android upload files from any local folde
 
 ## Considerations
 
-rclone will explicitely solicit access to your google account, so be sure to have a supported browser (Chrome, Firefox, Brave and even Edge will wor)
+rclone will explicitely solicit access to your google account, so be sure to have a supported browser (Chrome, Firefox, Brave and even Edge will work)
 If you can access the storage in termux run the following command 'termux-setup-storage' this will enable changing directory inside termux's terminal/cmd (however you want to call it). us cd command to move around
 To run the .sh file just run 'bash thenameyousavedthefilewith.sh'
 LF may have been replaced by CRLF meaning that if the file presents issues when running you may have to get into visual studio code, change to LF in the bottom right.
